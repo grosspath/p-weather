@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:  12rem -2rem;
+}
+
+.day {
+  color: white;
+  padding-top: .4ex;
+  font-size: 2em;
+}
+
+.cell {
+  background-color: #91A695;
+  background-image: radial-gradient(#91A695, #89A699);
+  box-shadow: -0.05vh 0.2vh 0.8vh -0.1vh rgb(0, 0, 0, 0.9);
+  width: 32rem;
+  height: 30rem;
+  opacity: 0.8;
+  color: #FFF;
+  padding-bottom: 3rem;
+}
+
+.high_temp {
+  font-size: 1.8em;
+  margin: 1rem 0 -1rem;
+}
+
+.low_temp {
+  font-size: 1.1em;
+}
+
+.summary {
+  padding-bottom: 4em;
+}
