@@ -48,6 +48,7 @@ class GetWeather extends React.Component {
   }
 
   darkSkySuccess = (payload) => {
+    console.log(payload);
     let dataObj = {};
     let dataArray = [];
     const temp = payload.currently.temperature;

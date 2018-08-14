@@ -1,43 +1,58 @@
+$mauve: #EBDDD7;
+$bone: #EBDCD9;
+$yellow-green: #D2C086;
+$olive: #898B58;
+$mid-green: #455530;
+$dark-green: #243722;
+
 .forecastBody {
   display: inline-grid;
   height: 19rem;
   width: 10rem;
-  margin: .2rem; }
+  margin: .2rem;
+}
 
 .forecastSection {
-  margin-bottom: 8rem; }
+  margin-bottom: 8rem;
+}
 
 .sky-con {
-  width: 8rem; }
+  width: 8rem;
+}
 
 .day {
   color: white;
   font-size: 2em;
   margin: .1rem;
-  padding-top: .8rem; }
+  padding-top: .8rem;
+}
 
 .cell {
+  // background-color: $yellow-green;
   width: 10rem;
   height: 9rem;
   color: #FFF;
-  opacity: 0.8; }
+  opacity: 0.8;
+}
 
 .bottom-cell {
   width: 10rem;
   height: 9rem;
   background-color: #fff;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+}
 
 .high_temp {
   font-size: 1.7em;
   padding-top: .2rem;
-  margin: 0; }
+  margin: 0;
+}
 
 .low_temp {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .summary {
   padding: .1em;
-  margin-bottom: 2rem; }
-
-/*# sourceMappingURL=viewForecast.css.map */
+  margin-bottom: 2rem;
+}

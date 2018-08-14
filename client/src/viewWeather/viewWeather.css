@@ -9,19 +9,20 @@ h1 {
 }
 
 .current_container {
+  align-self: center;
   color: #FFF;
-  background-image: linear-gradient(#4B7477, #96AA9C);
-  width: 70vh;
-  opacity: 0.7;
+  background-color: #898B58;
+  width: 68vh;
   margin: 0 auto;
+  box-shadow: .2rem .4rem 2rem -.2rem #455530;
 }
 
 .current_head, .week_head {
   color: #FFF;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .condition {
   padding-bottom: 3rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
